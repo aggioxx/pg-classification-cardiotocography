@@ -1,0 +1,14 @@
+# JetBrains IDEs
+.idea/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# pytest cache
+.pytest_cache/
+
+# MLflow runs folder
+mlruns/
