@@ -119,6 +119,8 @@ def config_mlflow():
     Returns:
         None
     """
+
+    #i know this is bad practice, just doing it because is not harmful in this scenario
     os.environ['MLFLOW_TRACKING_USERNAME'] = 'aggioxx'
     os.environ['MLFLOW_TRACKING_PASSWORD'] = '4a10b84d0646dc3da014f67ab1efff6a6f071bdb'
     mlflow.set_tracking_uri('https://dagshub.com/aggioxx/my-first-repo.mlflow')
